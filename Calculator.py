@@ -12,7 +12,7 @@ def sub():
     return A - B
 
 def mul():
-    print("Enter the two number to multiply")
+    print("Enter the two numbers to multiply")
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
     return A * B
@@ -24,10 +24,15 @@ def div():
     return A / B
 
 def Mod():
-    print("Enter the two number to get the remainder")
+    print("Enter the two numbers to get the remainder")
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
     return A % B 
+def Exp():
+    print("Enter the first number as your exponential base and the second number  as your exponent.")
+    A= int(input("Enter A:"))
+    B= int(input("Enter B:"))
+    return A ** B
 
 print("Caculator")
 print("---------------------------------------------------------------")
@@ -36,7 +41,8 @@ print("1: ADDITION")
 print("2: SUBTRACTION")
 print("3: MULTIPLICATION")
 print("4: DIVISION")
-print("5: MODULUS[remainder]")
+print("5: MODULUS[remainder]") 
+print("6: EXPONENT")
 print("0: QUIT")
 
 print("---------------------------------------------------------------")
@@ -65,6 +71,10 @@ while True:
     elif CHOICE == 5:
         print("GETTING THE REMAINDER")
         print (Mod())
+
+    elif CHOICE == 6:
+	print("CALCULATING..")
+	print(Exp())
 
     elif CHOICE == 0:
         print("GoodBye!")
