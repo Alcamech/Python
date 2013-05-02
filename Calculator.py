@@ -1,0 +1,73 @@
+
+def add():
+    print("Enter the two numbers to Add")
+    A= int(input("Enter A:"))
+    B= int(input("Enter B:"))
+    return A + B
+
+def sub():
+    print("Enter the two numbers to subtract")
+    A= int(input("Enter A:"))
+    B= int(input("Enter B:"))
+    return A - B
+
+def mul():
+    print("Enter the two number to multiply")
+    A= int(input("Enter A:"))
+    B= int(input("Enter B:"))
+    return A * B
+
+def div():
+    print("Enter the two numbers to divide.")
+    A= float(input("Enter A:"))
+    B= float(input("Enter B:"))
+    return A / B
+
+def Mod():
+    print("Enter the two number to get the remainder")
+    A= int(input("Enter A:"))
+    B= int(input("Enter B:"))
+    return A % B 
+
+print("Caculator")
+print("---------------------------------------------------------------")
+
+print("1: ADDITION")
+print("2: SUBTRACTION")
+print("3: MULTIPLICATION")
+print("4: DIVISION")
+print("5: MODULUS[remainder]")
+print("0: QUIT")
+
+print("---------------------------------------------------------------")
+print("Please which form of mathematics you wish to use.")
+
+while True:
+
+    CHOICE = int(input("ENTER THE CORRESPONDING NUMBER FOR A CALCULATION.")) 
+
+    if CHOICE == 1: 
+        print("ADDING TWO NUMBERS:")
+        print (add())
+
+    elif CHOICE == 2:
+        print("SUBTRACTING TWO NUMBERS")
+        print (sub())
+
+    elif CHOICE == 3:
+        print("MULTIPLYING TWO NUMBERS")
+        print (mul())
+
+    elif CHOICE == 4:
+        print("DIVIDING TWO NUMBERS")
+        print (div())
+	
+    elif CHOICE == 5:
+        print("GETTING THE REMAINDER")
+        print (Mod())
+
+    elif CHOICE == 0:
+        print("GoodBye!")
+        exit()
+    else:
+        print("The value Enter value from 1-4")
