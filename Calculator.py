@@ -1,3 +1,4 @@
+import math 
 
 def add():
     print("Enter the two numbers to Add")
@@ -33,6 +34,10 @@ def Exp():
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
     return A ** B
+def Sqrt():
+    print("Enter a number to obtain its Square Root")
+    x= int(input("Enter X:"))
+    return math.sqrt(x) 
 
 print("Caculator")
 print("---------------------------------------------------------------")
@@ -43,6 +48,7 @@ print("3: MULTIPLICATION")
 print("4: DIVISION")
 print("5: MODULUS[remainder]") 
 print("6: EXPONENT")
+print("7: SQUARE ROOT")
 print("0: QUIT")
 
 print("---------------------------------------------------------------")
@@ -75,6 +81,10 @@ while True:
     elif CHOICE == 6:
 	print("CALCULATING..")
 	print(Exp())
+
+    elif CHOICE == 7:
+	print("GETTING THE SQUARE ROOT")
+	print(Sqrt())
 
     elif CHOICE == 0:
         print("GoodBye!")
