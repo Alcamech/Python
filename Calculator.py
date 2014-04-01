@@ -1,39 +1,52 @@
 import math 
 
+#A simple terminal based calculator written in python
+#No GUI 
+
+
+# Addition 
 def add():
     print("Enter the two numbers to Add")
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
     return A + B
 
+#Substraction
 def sub():
     print("Enter the two numbers to subtract")
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
     return A - B
 
+#Multiplication
 def mul():
     print("Enter the two numbers to multiply")
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
     return A * B
 
+#Division
 def div():
     print("Enter the two numbers to divide.")
     A= float(input("Enter A:"))
     B= float(input("Enter B:"))
     return A / B
 
+#Remainder
 def Mod():
     print("Enter the two numbers to get the remainder")
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
-    return A % B 
+    return A % B
+
+#Exponent  
 def Exp():
     print("Enter the first number as your exponential base and the second number  as your exponent.")
     A= int(input("Enter A:"))
     B= int(input("Enter B:"))
     return A ** B
+
+#Square root 
 def Sqrt():
     print("Enter a number to obtain its Square Root")
     x= int(input("Enter X:"))
