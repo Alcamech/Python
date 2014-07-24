@@ -5,7 +5,7 @@
 #Messages will be either inspirational or motivational quotes 
 #By actual famous people,Random people or Lawton C. Mizell 
 
-#Random Modul Imported
+#Random Module Imported
 import random 
 
 print("Welcome!\n")
