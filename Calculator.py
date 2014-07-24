@@ -65,7 +65,7 @@ print("7: SQUARE ROOT")
 print("0: QUIT")
 
 print("---------------------------------------------------------------")
-print("Please which form of mathematics you wish to use.")
+print("Please choose which form of mathematics you wish to use.")
 
 while True:
 
