@@ -31,15 +31,17 @@ while tries < 5 and  guess != number:
 	if guess > number:
 	    print("Lower...")
 	else:
-            print("Higher...")
- 
-	guess = int(input("Enter your guesss:"))
+            print("Higher...") 
+	if guess == 7:
+	    print("Lucky Seven") 
+
+	guess = int(input("Enter your guess:"))
 	tries = tries + 1
 
 	if guess == number:
-		print("You guessed it! The number was", number)
-		print("And it only took you", tries, "tries!\n") 
+		print("You guessed it! The number was,",number)
 
+		print("And it only took you",tries,"tries noob!\n") 
 
 print("Too many tries!\n")
 
