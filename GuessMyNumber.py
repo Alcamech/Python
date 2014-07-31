@@ -43,7 +43,9 @@ while tries < 5 and  guess != number:
 
 		print("And it only took you",tries,"tries noob!\n") 
 
-print("Too many tries!\n")
+
+print("Too many tries! the number was",number)
+
 
 input("\n\nPress the enter key to exit.")
 
