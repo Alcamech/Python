@@ -39,12 +39,10 @@ while tries < 5 and  guess != number:
 	tries = tries + 1
 
 	if guess == number:
-		print("You guessed it! The number was,",number)
+		print("You guessed it! The number was,",number,"and it only took you",tries,"tries noob!")
 
-		print("And it only took you",tries,"tries noob!\n") 
-
-
-print("Too many tries! the number was",number)
+	if tries == 5: 
+		print("Too many tries! the number was",number)
 
 
 input("\n\nPress the enter key to exit.")
