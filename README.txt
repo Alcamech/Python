@@ -2,9 +2,11 @@ Python
 ======
 
 A collection of Python Programs and Applications
+Any code within this repo will be in Python 
 
-#This is a simple test
-#In use for the Git Book Examples
-#Any code within this Repo will be written in Python 
-#My FASFA Sucks :D 
-#You gotta step up your game to make it to the top
+Objective:
+ Code a various amount of programs to assit with learning how to write code 
+ Increase the complexity of code with every 4th or 5th program
+ 
+Goal: 
+ 1st - Text based adventure game 
